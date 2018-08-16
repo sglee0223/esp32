@@ -1,0 +1,18 @@
+use heltec kit
+
+resolution : 128 * 64
+RST : 16
+SDA : 4
+SCL : 15
+
+address : 0x3C
+
+esp\esp-idf\examples\peripherals\i2c
+
+ssd1306_128_64_i2c/
+    new file: Makefile
+    new file: main/component.mk
+    new file: main/ssd1306_128_64_i2c.c
+    new file: main/ssd1306_lib.c
+    new file: main/ssd1306_lib.h
+    new file: sdkconfig
