@@ -1,0 +1,17 @@
+lcd1602_i2c project
+
+5V Power
+SDA 21
+SCL 22
+
+base code : esp\esp-idf\examples\peripherals\i2c
+
+ADDR : 0x27
+
+lcd1602_i2c/
+            new file:   Makefile
+            new file:   main/component.mk
+            new file:   main/lcd1602_i2c.c
+            new file:   main/lcd1602_lib.c
+            new file:   main/lcd1602_lib.h
+            new file:   sdkconfig
