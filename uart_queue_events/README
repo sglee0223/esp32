@@ -1,0 +1,14 @@
+base code
+    C:\msys32\home\sglee\esp\esp-idf\examples\peripherals\uart_events
+
+use UART2 (tx 17, rx 16)
+
+use 2 thread
+    uart_event_task
+    uart_tx_task
+
+uart_queue_events/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/uart_queue_events_main.c
+        new file:   sdkconfig
