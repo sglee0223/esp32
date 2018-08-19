@@ -1,0 +1,15 @@
+base code
+    C:\msys32\home\sglee\esp\esp-idf\examples\peripherals\uart_select
+
+use UART2 line (tx 17, rx 16)
+
+add below code
+    // non-blocking
+    int flags = fcntl(fd, F_GETFL, 0);
+    fcntl(fd, F_SETFL, flags | O_NONBLOCK);
+
+uart_nonblocking_select/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/uart_nonblocking_select_main.c
+        new file:   sdkconfig
