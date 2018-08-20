@@ -1,3 +1,8 @@
+Windows
+        - COMx
+Linux
+        - /dev/ttyUSB0
+
 base code
     C:\msys32\home\sglee\esp\esp-idf\examples\peripherals\uart_select
 
