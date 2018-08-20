@@ -1,3 +1,8 @@
+Windows
+        - COMx
+Linux
+        - /dev/ttyUSB0
+
 use heltec kit
 
 resolution : 128 * 64
