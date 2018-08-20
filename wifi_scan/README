@@ -1,0 +1,4 @@
+make menuconfig
+        - ssid
+        - passwd
+        
