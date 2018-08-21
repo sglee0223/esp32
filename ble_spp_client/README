@@ -1,0 +1,18 @@
+ble_spp_client source
+
+add follow 2 define
+
+//#define SPP_DEBUG_MODE
+#define SUPPORT_HEARTBEAT
+
+
+base code
+    esp-idf\examples\bluetooth\ble_spp_client
+
+ble_spp_client/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/spp_client.c
+        new file:   sdkconfig
+        new file:   sdkconfig.defaults
+        
