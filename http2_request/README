@@ -1,0 +1,16 @@
+base code
+    esp\esp-idf\examples\protocols\http2_request
+
+make menuconfig
+    - ssid
+    - passwd
+
+http2_request/
+        new file:   Makefile
+        new file:   components/sh2lib/component.mk
+        new file:   components/sh2lib/sh2lib.c
+        new file:   components/sh2lib/sh2lib.h
+        new file:   main/Kconfig.projbuild
+        new file:   main/component.mk
+        new file:   main/http2_request_example_main.c
+        new file:   sdkconfig
