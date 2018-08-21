@@ -1,0 +1,13 @@
+terminal input ok
+send heartbeat ok
+
+base code
+    esp-idf\examples\bluetooth\ble_spp_server
+
+ble_spp_server/
+        new file:   Makefile
+        new file:   main/ble_spp_server.c
+        new file:   main/ble_spp_server.h
+        new file:   main/component.mk
+        new file:   sdkconfig
+        new file:   sdkconfig.defaults
