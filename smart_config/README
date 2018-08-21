@@ -1,0 +1,8 @@
+base code
+    esp-idf/examples/wifi/smart_config/
+
+smart_config/
+    new file:   Makefile
+    new file:   main/component.mk
+    new file:   main/smartconfig_main.c
+    new file:   sdkconfig
