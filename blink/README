@@ -1,0 +1,10 @@
+base code
+    esp-idf\examples\get-started\blink
+
+blink/
+        new file:   Makefile
+        new file:   main/Kconfig.projbuild
+        new file:   main/blink.c
+        new file:   main/component.mk
+        new file:   sdkconfig
+        new file:   sdkconfig.defaults
