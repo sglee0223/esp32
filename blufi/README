@@ -1,0 +1,15 @@
+base code
+    esp-idf/examples/bluetooth/blufi/
+
+change code
+    - main/blufi_main.c
+    - initialise_wifi func position is changed
+
+blufi/
+        new file:   Makefile
+        new file:   main/blufi.h
+        new file:   main/blufi_main.c
+        new file:   main/blufi_security.c
+        new file:   main/component.mk
+        new file:   sdkconfig
+        new file:   sdkconfig.defaults
