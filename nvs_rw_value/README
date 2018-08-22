@@ -1,0 +1,8 @@
+esp-idf/examples/storage/nvs_rw_value
+
+nvs_rw_value/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/nvs_rw_value_main.c
+        new file:   sdkconfig
+        
