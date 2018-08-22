@@ -1,0 +1,14 @@
+use:
+    esp-idf\examples\peripherals\gpio
+ref:
+    esp-idf\components\driver\include\driver\gpio.h
+    esp-idf\components\esp32\include\esp_intr_alloc.h
+
+BTN: GPIO_O input
+LED: GPIO_5 output
+
+gpio_intr/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/gpio_intr_main.c
+        new file:   sdkconfig
