@@ -1,0 +1,12 @@
+esp-idf\examples\storage\nvs_rw_blob
+
+esp-idf\components\nvs_flash\include\nvs_flash.h
+esp-idf\components\nvs_flash\include\nvs.h
+esp-idf\components\driver\include\driver\gpio.h
+
+nvs_rw_blob/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/nvs_blob_main.c
+        new file:   sdkconfig
+        
