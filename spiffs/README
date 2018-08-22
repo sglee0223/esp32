@@ -1,0 +1,11 @@
+esp-idf\examples\storage\spiffs
+
+esp-idf\components\spiffs\include\esp_spiffs.h
+
+spiffs/
+    new file: Makefile
+    new file: main/component.mk
+    new file: main/spiffs_main.c
+    new file: partitions_example.csv
+    new file: sdkconfig
+    new file: sdkconfig.defaults
