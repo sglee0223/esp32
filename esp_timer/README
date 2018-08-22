@@ -1,5 +1,8 @@
 esp-idf\examples\system\esp_timer
 
+esp-idf\components\esp32\include\esp_timer.h
+esp-idf\components\esp32\include\esp_sleep.h
+    
 esp_timer/
         new file:   Makefile
         new file:   example_test.py
