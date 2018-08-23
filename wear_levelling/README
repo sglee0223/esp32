@@ -1,0 +1,13 @@
+esp-idf\examples\storage\wear_levelling
+
+esp-idf\components\spi_flash\sim\stubs\vfs\include\esp_vfs.h
+esp-idf\components\fatfs\src\esp_vfs_fat.h
+esp-idf\components\esp32\include\esp_system.h
+
+wear_levelling/
+    new file: Makefile
+    new file: main/component.mk
+    new file: main/wear_levelling_main.c
+    new file: partitions_example.csv
+    new file: sdkconfig
+    new file: sdkconfig.defaults
