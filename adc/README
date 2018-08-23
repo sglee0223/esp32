@@ -4,6 +4,13 @@ esp-idf\components\driver\include\driver\gpio.h
 esp-idf\components\driver\include\driver\adc.h
 esp-idf\components\esp_adc_cal\include\esp_adc_cal.h
 
+edit code
+        //static const adc_atten_t atten = ADC_ATTEN_DB_0;  // 1/1
+        static const adc_atten_t atten = ADC_ATTEN_DB_11;   // 1/3.6
+
+        //esp_adc_cal_value_t val_type = esp_adc_cal_characterize(unit, atten, ADC_WIDTH_BIT_12, DEFAULT_VREF, adc_chars); // 12bit
+        esp_adc_cal_value_t val_type = esp_adc_cal_characterize(unit, atten, ADC_WIDTH_BIT_10, DEFAULT_VREF, adc_chars); // 10bit
+    
 adc/
         new file:   Makefile
         new file:   main/adc1_main.c
