@@ -1,0 +1,12 @@
+esp-idf\examples\peripherals\adc
+
+esp-idf\components\driver\include\driver\gpio.h
+esp-idf\components\driver\include\driver\adc.h
+esp-idf\components\esp_adc_cal\include\esp_adc_cal.h
+
+adc/
+        new file:   Makefile
+        new file:   main/adc1_main.c
+        new file:   main/component.mk
+        new file:   sdkconfig
+
