@@ -1,0 +1,9 @@
+esp-idf\examples\peripherals\ledc
+
+esp-idf\components\driver\include\driver\ledc.h
+
+ledc/
+        new file:   Makefile
+        new file:   main/component.mk
+        new file:   main/ledc_main.c
+        new file:   sdkconfig
