@@ -1,0 +1,19 @@
+esp-idf\examples\peripherals\spi_master
+
+#define PIN_NUM_MISO 18
+#define PIN_NUM_MOSI 27
+#define PIN_NUM_CLK  5
+#define PIN_NUM_CS   16
+
+esp-idf\components\driver\include\driver\spi_master.h
+esp-idf\components\driver\include\driver\spi_common.h
+esp-idf\components\soc\esp32\include\soc\gpio_struct.h
+esp-idf\components\driver\include\driver\gpio.h
+
+at45dbxx_spi/
+        new file:   Makefile
+        new file:   main/at45dbxx.c
+        new file:   main/at45dbxx.h
+        new file:   main/at45dbxx_spi_main.c
+        new file:   main/component.mk
+        new file:   sdkconfig
